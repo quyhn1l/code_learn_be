@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "final-project"
+version = "0.1.0"
+description = ""
+authors = ["quyhnil <quy_le@theinfitech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlmodel = "^0.0.22"
+python-slugify = "^8.0.4"
+httpx = "^0.27.2"
+pydantic = {extras = ["email"], version = "^2.10.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

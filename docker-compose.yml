@@ -1,0 +1,6 @@
+version: '3'
+services:
+  code_runner:
+    build: ./code_runner
+    ports:
+      - "8001:8000"
